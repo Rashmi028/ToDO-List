@@ -1,3 +1,122 @@
-body{
-    background-color: aquamarine;
+@media (min-width: 800px){
+    .navbar-expand-custom {
+        background-color: rgb(218, 216, 243);
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+    }
+    .navbar-expand-custom .navbar-nav {
+        flex-direction: row;
+    }
+    .navbar-expand-custom .navbar-nav .nav-link {
+        padding-right: .5rem;
+        padding-left: .5rem;
+    }
+    .navbar-expand-custom .navbar-collapse {
+        display: flex!important;
+    }
+    .navbar-expand-custom .navbar-toggler {
+        display: none;
+    }
 }
+div{
+    display: block;
+}
+
+body {
+  background-color:aqua ;
+}
+
+head{
+    background-color: blanchedalmond;
+}
+
+.navback {
+    background-color: aqua;
+}
+
+footer {
+    text-align: center;
+  flex: 0 0 auto;
+  background-color:rgb(218, 216, 243);
+}
+
+main {
+  text-align: center;
+  padding-left:70vmin;
+  padding-right: 70vmin;
+  padding-top: 10vmin;
+  padding-bottom: 50vmin;
+  flex: 1 0 auto;
+  background-color: rgb(218, 216, 243);
+}
+.box{
+    /* max-width: 400px; */
+    margin: 50px auto;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+.heading{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    border: 0.4px solid rgb(163, 130, 216);
+  border-radius: 6px;
+  background-color: rgb(163, 130, 216);
+}
+
+.item{
+    /* padding-top: 10px;
+    border: 0.4px black;
+    border-radius: 6px;
+    background-color:white ; */
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    padding-left: 15px;
+    
+}
+.item{
+    min-height: 55px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f1f1;
+    padding-left: 15px;
+}
+form{
+    text-align: center;
+    padding-left: 20px;
+}
+input[type=text] {
+    text-align: center;
+    outline: none;
+    width: 100%;
+    padding-left: 15px;
+    /* border-color: #f1f1f1; */
+    border: none;
+    border-bottom: 3px solid rgb(163, 130, 216);
+    height: 60px;
+    top: 10px;
+    font-size: 20px;
+    width: 313px;
+  }
+  ::placeholder {
+    color: grey;
+    opacity: 0.6; 
+  }
+  .button {
+    margin-left: 18px;
+    min-height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    border-color: transparent;
+    background-color: #a683e3;
+    color: #fff;
+    outline:none;
+
+}
+
+  
+  
